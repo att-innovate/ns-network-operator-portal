@@ -146,7 +146,7 @@ export default class Blueprint extends React.Component {
 									<Card cover={<Resources resources={blueprint.resources.nationalDC} />}>
 										<Meta
 											title={<div style={{ textAlign: 'center'}}>National DC</div>}
-											description={<div style={{ textAlign: 'center'}}>Latency 500 ms 1 s</div>}
+											description={<div style={{ textAlign: 'center'}}>Latency 500 ms - 1 s</div>}
 										/>
 									</Card>
 								</Col>
