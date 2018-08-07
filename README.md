@@ -1,9 +1,3 @@
-This project is intended to be a PoC interface for network slicing on the operator side. 
-
-Part of ONAP.
-
----
-
 ## Status
 
 *stubbed*: mocked-up with dummy data (`json` objects on the front-end), and (some) ability to click around.
