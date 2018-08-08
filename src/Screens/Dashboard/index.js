@@ -5,6 +5,7 @@ import { Layout, Menu, Icon } from 'antd';
 import { withRouter, Switch, Route } from 'react-router-dom'
 
 import Blueprints from './Blueprints'
+import Templates from './Templates'
 
 const { Header, Sider, Content } = Layout;
 
@@ -22,7 +23,8 @@ class Dashboard extends React.Component {
 	onClickMenuItem = ({ item, key, keyPath }) => {
 		switch (key) {
 			case 'blueprints':
-			case 'orchestration':
+			// case 'orchestration':
+			case 'templates':
 			case 'monitoring':
 				this.props.history.push('/dashboard/' + key)
 				break;
@@ -57,7 +59,7 @@ class Dashboard extends React.Component {
 							<Icon type="dashboard" />
 							<span>Blueprints</span>
             </Menu.Item>
-            <Menu.Item key="orchestration">
+            <Menu.Item key="templates">
 							<Icon type="form" />
               <span>Orchestration</span>
             </Menu.Item>
@@ -84,8 +86,9 @@ class Dashboard extends React.Component {
 								component={Blueprints}
 							/>
 							<Route 
-								path="/dashboard/orchestration" 
-								component={null} 
+								// path="/dashboard/orchestration" 
+								path="/dashboard/templates" 
+								component={Templates}
 							/>
 							<Route 
 								path="/dashboard/monitoring" 
