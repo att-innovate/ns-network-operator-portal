@@ -11,22 +11,22 @@ Part of ONAP.
 ### The Blueprints Feature
 
 - [x] initial design, based on prior art (MWC mockup)
-- [x] stubbed (minus the deployment TOSCA tab)
-- [ ] Feedback from stakeholders
+- [x] stubbed (minus the TOSCA tab)
+- [ ] feedback from stakeholders
 - [ ] ...
 
 ### The Orchestration Feature
 
-- [ ] initial design, based on prior art (MWC mockup)
-- [ ] stubbed (minus the deployment "flow" operation and animations)
-- [ ] Feedback from stakeholders
+- [x] initial design, based on prior art (MWC mockup)
+- [ ] stubbed (minus visualization of "flow through the network")
+- [ ] feedback from stakeholders
 - [ ] ...
 
 ### The Monitoring Feature
 
 - [x] initial design, based on prior art (MWC mockup)
 - [ ] stubbed
-- [ ] Feedback from stakeholders
+- [ ] feedback from stakeholders
 - [ ] ...
 
 ## Implementation Notes
