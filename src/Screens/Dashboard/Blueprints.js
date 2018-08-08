@@ -4,7 +4,6 @@ import { Drawer, Table, Icon, Divider } from 'antd';
 
 import { Link, Switch, Route } from 'react-router-dom'
 
-// TODO: replace with Redux connector ...
 import api from '../../api/blueprints'
 
 import Blueprint from './Blueprint'

@@ -61,7 +61,7 @@ class Dashboard extends React.Component {
             </Menu.Item>
             <Menu.Item key="templates">
 							<Icon type="form" />
-              <span>Orchestration</span>
+              <span>Templates</span>
             </Menu.Item>
 						<Menu.Item key="monitoring">
 							<Icon type="shop" />
@@ -86,9 +86,8 @@ class Dashboard extends React.Component {
 								component={Blueprints}
 							/>
 							<Route 
-								// path="/dashboard/orchestration" 
 								path="/dashboard/templates" 
-								component={Templates}
+								component={Templates} 
 							/>
 							<Route 
 								path="/dashboard/monitoring" 
